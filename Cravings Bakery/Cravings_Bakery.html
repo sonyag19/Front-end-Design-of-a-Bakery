@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #a{
+            background-color: rgb(103, 46, 5);
+            padding-left: 100px;
+
+        }
+        .container-fluid{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            
+        }
+        .navbar-nav li a{
+            color: white;
+            margin-right: 50px;
+        }
+        .navbar-nav li a:hover{
+            color:yellow;
+        }
+        /* #c{
+            float: left;
+            color: white;
+            font-size: xx-large;
+            background-color: black;
+            height: 600px;
+            width: 718px;
+        }
+        #b{
+            float: right;
+        } */
+        /* #carousel-inner{
+            
+            height: 300px;
+            width: 100%;
+        } */
+        .container-fluid {
+            position:relative;
+            text-align: center;
+            color: white;
+            width: 1000px;
+            
+        }
+        .top-left {
+            position: absolute;
+            top: 100px;
+            left: 60px;
+            font-size: 46px;
+            font-family:cursive
+        }
+        #carouselExampleIndicators{
+            width:900px;
+            height: 500px;
+            padding-top: 50px;
+            margin-left: 350px;
+        }
+        #x{
+            background-color: beige;
+            width: 100%;
+            height: 700px;
+            font-size: xx-large;
+        }
+        .card-text{
+            height: 150px;
+        }
+        h2{
+            text-align: center;
+            color: white;
+        }
+        #y{
+            background-color: black;
+
+        }
+        #z{
+            background-color: beige;
+            text-align: center;
+        }
+        #footer{
+            text-align: center;
+            padding: 30px;
+            color: white;
+            background-color: black;
+            height: 200px;
+            width: 100%;
+            
+        }
+        i{
+            padding: 30px;
+        }
+        .dropdown-menu{
+            color: black;
+        }
+       
+
+   
+    </style>
+    <script src="https://kit.fontawesome.com/081cab5b4f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="a">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="food2.jpg" alt="Bootstrap" width="70" height="70">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/Bootstrap/Cravings_login.html">SHOP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/Bootstrap/Cravings_Menu.html">MENU & PRICING</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">MASTER CHEFS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PAGES
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Our Service</a></li>
+                      <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <i class="fa-solid fa-cart-shopping" height="20px"></i> <span class="badge text-bg-secondary">0</span>
+                  </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </div>
+        <div class="container-fluid">
+            <img src="pastry1.jpg" alt="Black-Forest-Cake-12.jpg" style="width: 100%;">
+            <div class="top-left">
+                <h1 class="display-1 text-uppercase text-white mb-2">Cravings</h1>
+                <h1 class="text-uppercase text-white">The Best Bakery In Town...</h1>
+            </div>
+            
+        </div>
+    <div id="x">
+       
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="close-up-cake.jpg" class="d-block w-100" alt="...">
+          </div>
+          
+          <div class="carousel-item">
+            <img src="Macaron.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="bakery2.jpg" class="d-block w-100" alt="...">
+          </div>
+          
+          <div class="carousel-item">
+            <img src="5a1e59_27cfb318261442b480316115bf75d219_mv2.webp" class="d-block w-100" alt="...">
+          </div>
+         
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div id="y">
+        <h2>Menu & Pricing</h1><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="Macaron.jpg" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">MACARONS</h5>
+                      <p class="card-text">Soft filling, such as ganache or buttercream, sandwiched between
+                         two delicate shells made from egg whites, ground almonds, sugar, often other flavorings and food coloring.</p>
+                      <a href="#" class="btn btn-primary">ADD TO CART</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="cupcake.jpg" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">CUPCAKES</h5>
+                      <p class="card-text">Basic ingredients as standard-sized cakes: butter, sugar, eggs, and flour.</p>
+                      <a href="#" class="btn btn-primary">ADD TO CART</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="donuts-recipe.jpg" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">DONUT</h5>
+                      <p class="card-text">Various toppings and flavorings are used for different types, such as sugar,
+                         chocolate or maple glazing. Doughnuts may also include water, 
+                        leavening, eggs, milk, sugar, oil, shortening, and natural or artificial flavors.</p>
+                      <a href="#" class="btn btn-primary">ADD TO CART</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="pastry2.jpg" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">PASTRY</h5>
+                      <p class="card-text">made with a dough of flour, water and shortening
+                         (solid fats, including butter or lard) that may be savoury or sweetened.</p>
+                      <a href="#" class="btn btn-primary">ADD TO CART</a>
+                    </div>
+                  </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="strawberry-chocolate-cake-1.jpg" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">Strawberry Chocolate Cake</h5>
+                      <p class="card-text">Soft filling, such as ganache or buttercream, sandwiched between
+                         two delicate shells made from egg whites, ground almonds, sugar, often other flavorings and food coloring.</p>
+                      <a href="#" class="btn btn-primary">ADD TO CART</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="istockphoto-1326614077-170667a.jpg" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">Chocolate Cupcake</h5>
+                      <p class="card-text">Basic ingredients as standard-sized cakes: butter, sugar, eggs, and flour.</p>
+                      <a href="#" class="btn btn-primary">ADD TO CART</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="IMG_3926-black-forest-cake-square.webp" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">Black Forest Cake</h5>
+                      <p class="card-text">Various toppings and flavorings are used for different types, such as sugar,
+                         chocolate or maple glazing. Doughnuts may also include water, 
+                        leavening, eggs, milk, sugar, oil, shortening, and natural or artificial flavors.</p>
+                      <a href="#" class="btn btn-primary">ADD TO CART</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="bakery2.jpg" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                      <h5 class="card-title">Bread</h5>
+                      <p class="card-text">made with a dough of flour, water and shortening
+                         (solid fats, including butter or lard) that may be savoury or sweetened.</p>
+                      <a href="#" class="btn btn-primary">ADD TO CART</a>
+                    </div>
+                  </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <div id="z">
+        <h3>Contact Us:</h3>
+        <h4>Phone: +1 9876543210</h4>
+        <h4>Email: cravings@gmail.com</h4>
+        <h4>Address: 1788 Gilmore Ave, Burnaby</h4>
+    </div>
+    <footer>
+        <div id="footer">
+        <p>Copyright &copy;2021 Foolishdeveloper</p>
+        <div id="icons">
+            <i class="fa-brands fa-facebook" style="size: 20px;"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
